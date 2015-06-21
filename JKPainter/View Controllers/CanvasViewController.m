@@ -48,7 +48,6 @@ CGRect markRect(CGPoint location, CGFloat dotSize);
 - (void)setup
 {
     if (isSetup) {
-        NSLog(@"already setup");
         return;
     }
     
